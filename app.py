@@ -6,7 +6,7 @@ model=pickle.load(open('bagging.pkl','rb'))
 
 def main():
     st.title('Car Price Prediction Using ML')
-    img='"C:\Users\goldy kumar\OneDrive\Documents\Pictures\car.jpg"'
+    img="C:\Users\goldy kumar\OneDrive\Documents\Pictures\car.jpg"
     st.image(img)
     st.subheader('Car Price Predictor')
     st.info('''We need some information to predict Car price''')
